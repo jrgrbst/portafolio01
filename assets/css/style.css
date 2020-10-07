@@ -68,7 +68,7 @@ header h1{
     font-weight: 700;
 }
 
-.tooltip{
+.tooltip, .popover{
     font-family: 'Roboto Mono';
     font-size: 13px;
 }
