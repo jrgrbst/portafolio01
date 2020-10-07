@@ -6,6 +6,10 @@ $(function () {
     $('[data-toggle="popover"]').popover()
 })
 
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+})
+
 $(document).ready(function(){
     $('.zoom').hover(function() {
         $(this).addClass('transition');
