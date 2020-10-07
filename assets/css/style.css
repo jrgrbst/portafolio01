@@ -1,0 +1,78 @@
+body{
+    font-family: 'Roboto Mono', 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.color_pink{
+    background-color: hotpink;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 30px;
+    color: whitesmoke
+}
+
+header{
+    text-align: center;
+    background-image: url("/assets/img/header.png");
+    background-color: dimgrey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0px;
+    color: whitesmoke;
+}
+
+section{
+    margin: 80px 0px;
+}
+
+.titular h1{
+    font-size: 50px;
+}
+
+.bio{
+    font-size: 24px;
+}
+
+.resumen{
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 200%;
+}
+
+#experiencias p{
+    font-weight: 200;
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card-text{
+    font-weight: 200;
+}
+
+.typeform-share{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+footer{
+    color: whitesmoke;
+    vertical-align: top;
+    padding: 50px 0px;
+}
+
+footer a{
+    color: whitesmoke;
+}
+
