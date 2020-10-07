@@ -65,6 +65,10 @@ section{
     font-weight: 700;
 }
 
+.tooltip{
+    font-family: 'Roboto Mono';
+    font-size: 13px;
+}
 
 footer{
     color: whitesmoke;
