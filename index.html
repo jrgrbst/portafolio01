@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;400;700&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a6fc251d9b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Jorge Rubio Soto | Portafolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark color_pink">
+        <div class="container">
+            <a class="navbar-brand mb-1" href="#">@jrgrbst</a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link mr-2" href="#about">Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link mr-2" href="#experiencias">Experiencias</a>
+                </li>
+                <li class="nav-item mr-2">
+                <a class="nav-link" href="#last-works">Trabajos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container-fluid" style="background-image: url('./assets/img/header.png')">
+        <div>
+            <h2 class="pt-5">¡Hola! Soy</h2>
+            <h1 class="pb-5 font-weight-bold">Jorge Rubio Soto</h1>
+        </div>
+    </header>
+
+    <main class="container">
+    <section id="about">
+        <div class="row my-5">
+            <article class="bio col-12 d-none d-md-block d-lg-block d-xl-block my-5">
+                <p class="text-center font-weight-bold">Periodista y Encuadernador. Hoy trabajo en La Libreta Perfecta y también estoy aprendiendo un poco de Desarrollo en Front-End.</p>
+            </article>
+
+            <article class="resumen col-lg-6 col-xl-6 d-none d-md-block d-lg-block d-xl-block">
+                <p class="mx-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+            </article>
+
+            <article class="resumen col-lg-6 col-xl-6 d-none d-md-block d-lg-block d-xl-block">
+                <p class="mx-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="experiencias">
+        <div class="row">
+            <div class="container">
+                <h2 class="font-weight-bold text-center">Mis Experiencias</h2>
+            </div>
+            <div class="text-center my-5 d-inline col-lg-6 col-xl-6">
+                <i class="fas fa-book-open fa-7x" data-toggle="popover" data-placement="top" title="@lalibretaperfecta" data-content="Sígueme en Instagram para ver todos mis trabajos."></i>
+                <h4 class="mt-4">LA LIBRETA PERFECTA</h4>
+                <p>2016 — 2020</p>
+            </div>
+
+            <div class="text-center my-5 d-inline col-lg-6 col-xl-6">
+                <i class="fas fa-hand-holding-heart fa-7x" data-toggle="modal" data-target="#exampleModal"></i>
+                <h4 class="mt-4">FUNDACIÓN COLUNGA</h4>
+                <p>2018 — 2019</p>
+
+                <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title font-weight-bold">Fundación Colunga</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body text-left">
+                        Fundación Colunga es una organización que trabaja con más de 50 ONGs del país. Aquí trabajé apoyando en el Equipo de Comunicaciones como Periodista.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-dismiss="modal">¡Entendido!</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <section id="last-works" class="container-fluid color_pink py-5">
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 class="font-weight-bold text-white">Mis Últimos Trabajos</h1>
+            </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 zoom">
+            <div class="card border-dark my-3">
+                <img src="./assets/img/meet_coffee.png" class="card-img-top" alt="card-1">
+                <div class="card-body">
+                  <p class="card-title text-uppercase">Meet & Coffee</p>
+                  <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim.</p>
+                </div>
+                </div>
+                </div>
+                
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 zoom">
+              <div class="card border-dark my-3">
+                <img src="./assets/img/suricata.png" class="card-img-top" alt="card-2">
+                <div class="card-body">
+                  <p class="card-title text-uppercase">Suricata</p>
+                  <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 zoom">
+              <div class="card border-dark my-3">
+                <img src="./assets/img/iguana_page.png" class="card-img-top" alt="card-3">
+                <div class="card-body">
+                  <p class="card-title text-uppercase">Iguana</p>
+                  <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 zoom">
+                <div class="card border-dark my-3">
+                  <img src="./assets/img/cuppon.png" class="card-img-top" alt="card-3">
+                  <div class="card-body">
+                    <p class="card-title text-uppercase">Cuppon</p>
+                    <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 zoom">
+                <div class="card border-dark my-3">
+                  <img src="./assets/img/ricomida.png" class="card-img-top" alt="card-3">
+                  <div class="card-body">
+                    <p class="card-title text-uppercase">Ricomida</p>
+                    <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 zoom">
+                <div class="card border-dark my-3">
+                  <img src="./assets/img/dmark.png" class="card-img-top" alt="card-3">
+                  <div class="card-body">
+                    <p class="card-title text-uppercase">Dmark <span class="badge badge-pill badge-danger">New</span></p>
+                    <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim.</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="container py-5">
+        <div class="py-5">
+            <h1 class="font-weight-bold text-center">¿En qué puedo ayudarte?</h1>
+        </div>
+
+        <div class="text-center pb-3">
+            <button class="typeform-share button btn btn-outline-dark p-4" href="https://form.typeform.com/to/fLAH8f8B" data-mode="popup" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Se abrirá un formulario de contacto en pop-up">¡Quedemos en contacto!</a> 
+        
+            <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+            </button>
+        </div>
+    </section>
+
+    <footer class="container-fluid color_pink">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-lg-6 col-xl-6 text-center">
+                    <a href="#top"><h1 class="navbar-brand">@jrgrbst</h1></a>
+                </div>
+                <div id="iconos" class="col-12 col-sm-12 col-lg-6 col-xl-6 text-center mt-2">
+                    <a href="https://www.github.com" target="_blank"><i class="fab fa-github fa-2x mr-3" ></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in fa-2x mr-3"></i></a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter fa-2x mr-3"></i></a>
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
